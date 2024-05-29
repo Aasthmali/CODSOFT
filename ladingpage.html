@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="ladingpage.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <title>Landing page </title>
+</head>
+<body>
+    <!-- nav bar -->
+    <div class="Head">
+        <div class="Head2">
+        <h1 style="margin-left: 50px;">Learning</h1>
+        <ul class="menu">
+        <li><a href="#showsignpage">Sign Up</a></li>
+        <li><a href="#con">Contact</a></li>
+        <li><a href="#cont">Courses</a></li>
+        <li><a href="#home" >Home</a></li>
+        </ul>
+        <div class=" headline">
+        <h1 class="anim"  style="margin-left: 50px; "> 
+          Learn<br/>Web Devlopment<br/>Free! </h1>
+        <br/>
+        <p  class= "dis anim"style="margin-left: 50px;">Explore our growing collection of courses on key web design and development subjects.</p>
+        </div>
+        <button class="btn1 anim">Start Course</button>
+        <img class="pic-img anim"  src="https://static.vecteezy.com/system/resources/previews/011/153/368/original/3d-website-developer-working-on-laptop-illustration-png.png" height="500px" width="500px"/>
+        </div>
+    </div>
+    <br/>
+    <!-- waves -->
+    <div>
+      <div>
+        <svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+        viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
+        <defs>
+        <path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" />
+        </defs>
+        <g class="parallax">
+        <use xlink:href="#gentle-wave" x="48" y="0" fill="rgba(255,255,255,0.7" />
+        <use xlink:href="#gentle-wave" x="48" y="3" fill="rgba(255,255,255,0.5)" />
+        <use xlink:href="#gentle-wave" x="48" y="5" fill="rgba(255,255,255,0.3)" />
+        <use xlink:href="#gentle-wave" x="48" y="7" fill="#fff" />
+        </g>
+        </svg>
+      </div>
+      <!-- course cards -->
+    <div class="content" id="cont">
+       <h1 class="course anim "   style="color: rgb(30, 14, 89);font-size: 50px;">Courses </h1>
+       <div class="card anim" style="width: 18rem;">
+        <div class="imgcir">
+        <img class="card-img-top" src="https://logos-download.com/wp-content/uploads/2017/07/HTML5_badge.png" alt="Card image cap">
+        </div>
+        <div class="card-body">
+          <h5 class="card-title">HTML</h5>
+          <br/>
+          <p class="card-text">HTML stands for HyperText Markup Language, which is the standard document format for web pages that is supported by all modern browsers.</p><br/>
+          <button class="btn btn-primary">Get Start</button> 
+        </div>
+      </div>    
+        <div class="card anim" style="width: 18rem; ">
+          <div class="imgcir">
+         <img class="card-img-top" src="https://logospng.org/download/css-3/logo-css-3-1536.png" alt="Card image cap">
+          </div>
+         <div class="card-body">
+           <h5 class="card-title">CSS</h5>
+           <br/>
+           <p class="card-text">CSS stands for Cascading Style Sheets;CSS describes how HTML elements are to be displayed on screen, paper, or in other media</p><br/><br/>
+          <button class="btn btn-primary">Get Start</button> 
+         </div>
+       </div>    
+        <div class="card anim" style="width: 18rem;">
+          <div class="imgcir">
+         <img class="card-img-top" src="https://oscarcv.dev/assets/js-c636ff4f.png" alt="Card image cap" >
+         </div>
+         <div class="card-body">
+           <h5 class="card-title">JAVASCRIPT</h5>
+           <br/>
+           <p class="card-text">JavaScript (JS) is the most popular programming language for web development. It can be used for both Client-side and Server-side. .</p><br/>
+           <button class="btn btn-primary">Get Start</button> 
+         </div>
+       </div>    
+    </div>
+    <!-- signup -->
+    <div id="showsignpage" class="contact">
+      <br/>
+      <br/>
+      <br/>
+        <h1 style="margin-left: 220px;color:#fff;">SIGN UP</h1>
+        <br/>
+        <br/>
+        <br/>
+        <h3>Your Name</h3>
+        <input type="text" placeholder=" 👤enter your name"/>
+        <h3>Your Email</h3>
+        <input type="email" placeholder="📧enter your email"/>
+        <h3>Your Password</h3>
+        <input type="password" placeholder="🔒enter your password"/>
+        <br/>
+        <button onclick="{confirm()}"class="sign">Sign Up</button>
+        <!-- contact -->
+        <div class="conus">
+          <h1 style=" color: #fff;font-weight: bold;">Contact Us</h1>
+          <br/>
+          <p style="color: #fff;">Dream Sankalp,Block-H,Yashwant Nagar,Near JSPM University,Wagholi,Pune</p>
+        <br/>
+        <br/>
+        <h1 style="color: #fff;">More Information</h1>
+        <br/>
+        <p style="color: #fff;">Greetings to all the learner out there!
+          We welcome you to the platform where we
+          consistently strive to offer the best 
+          of education. This platform has been 
+          designed for every learner wishing to 
+          expand their knowledge, share their 
+          knowledge and is ready to grab their 
+          dream job. We have web development online courses, 
+          all of tutorials and much more just for the 
+          learner inside you.Thank you for choosing 
+          and supporting us!</p>
+          <i class="fa-brands fa-instagram fa-2xl" style="color: #fff;"></i>
+          <i class="fa-brands fa-facebook fa-2xl" style="color: #fcfcfc;"></i>
+          <i class="fa-brands fa-twitter fa-2xl" style="color: #ffffff;"></i>
+          <i class="fa-brands fa-youtube fa-2xl" style="color: #ffffff;"></i>
+          <i class="fa-brands fa-linkedin fa-2xl" style="color: #ffffff;"></i>
+      </div>
+    </div>
+    
+</body>
+<script>
+  const confirm=()=>{
+    alert('confirm this Datails!');
+    window.alert('succussfully Sign-up');
+    
+    
+    
+  }
+</script>
+</html>
